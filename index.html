@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShutterXsculptor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="title.png" type="title/png">
+
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#hero"><img src="logo.png" alt="Logo" id="logo"></a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="navbar-links" id="nav-links">
+            <li><a class="hover-items-link" href="#hero">Home</a></li>
+            <li><a class="hover-items-link" href="#about">About</a></li>
+            <li><a class="hover-items-link" href="#gallery">Gallery</a></li>
+            <li><a class="hover-items-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="home">
+        <h1>Capturing Moments, One Click at a Time</h1>
+        <p>Emotions, Light, and Life—Captured</p>
+        <a href="#gallery" class="hero-btn">Explore My Lens</a>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="image.png">
+            </div>
+                <div class="about-text">
+                    <h2>Behind the Lens</h2>
+                    <p class="intro">Hey there! I'm Rashi — the eye behind the lens, the heart behind every frame.</p>
+                    <p>I believe photography isn’t just about capturing images — it’s about capturing feelings. A laugh mid-air, the glint of sunlight through eyelashes, the story in a stranger’s smile — these are the moments I live for.</p>
+                    <p>With every click, I try to frame authenticity — raw, real, and timeless. My style is candid and my goal is simple: to freeze emotions in pixels.</p>
+                    <p>When I’m not holding a camera, I’m a B.Tech student — exploring the world of technology and learning to tell stories through code as well as frames.I shoot with the <strong>Nikon Z30</strong>, a compact yet powerful mirrorless camera that helps me bring creativity to life.
+                    </p>
+                    <a href="#contact" class="about-btn">Let’s Work Together</a>
+             </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>My Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="i12.jpeg" alt="Sunrise Bliss">
+                    <h3>Glimpse of Assi Ghat</h3>
+                    <p>The sacred calm of Assi Ghat — where boats drift, birds soar, and spirituality flows with the Ganges.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="i7.jpeg" alt="Rainy Reflections">
+                    <h3>Sunset</h3>
+                    <p>Urban silhouettes merge with painted skies after the rain, reflecting calm and contrast.</p>
+                </div>
+            <div class="gallery-item">
+                <img src="i10.jpeg" alt="The Smile Unseen">
+                <h3>Echoes of Heritage</h3>
+                <p>A majestic fort basks in sunlight — standing tall, whispering tales of time.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i3.jpeg" alt="Through the Window">
+                <h3>Festival Hues</h3>
+                <p>A bustling market lit with fairy lights, where a balloon seller becomes the heart of a vibrant night</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i2.jpeg" alt="Nature's Embrace">
+                <h3>The Potter’s Touch</h3>
+                <p>An artisan shapes tradition with every turn of the wheel. Hands covered in clay, molding stories passed through generations.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i1.jpeg" alt="City Pulse">
+                <h3>Winds of Faith</h3>
+                <p>Colorful Tibetan prayer flags flutter under the sun, carrying hopes, blessings, and whispered wishes into the breeze</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i6.jpeg" alt="Lost in Thought">
+                <h3>Midnight Carnival</h3>
+                <p>Bright lights spin in the dark sky — a moment of joy, motion, and wonder frozen in time at a night carnival.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i5.jpeg" alt="Festive Lights">
+                <h3>Fire</h3>
+                <p>Dancing flames pierce the darkness — a symbol of warmth, ritual, and the untamed beauty of celebration.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i4.jpeg" alt="Windswept">
+                <h3>Dusk in Stillness</h3>
+                <p>The sky dimmed, the wind paused — and a lone crescent watched from above. A quiet moment before nightfall.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i13.jpeg" alt="Quiet Café Corners">
+                <h3>Pure Delight</h3>
+                <p>A child's candid smile says everything — unfiltered joy, shared sweets, and a moment worth remembering.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i8.jpeg" alt="Quiet Café Corners">
+                <h3>Chasing Stillness</h3>
+                <p>The clouds float gently like unspoken thoughts — fleeting, soft, and ever-changing.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="i9.jpeg" alt="Quiet Café Corners">
+                <h3>Little Flower Bearer</h3>
+                <p>Barefoot and bright-eyed, she carries roses like treasures — a portrait of innocence and street-side joy.</p>
+            </div>
+         </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Got a story to capture or just want to say hi? Drop a message below or find me on Instagram.</p>
+
+        <form class="contact-form" action="https://formsubmit.co/itsrashi950@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button class="contact-btn" type="submit">Send Message</button>
+        </form>
+
+
+        <p class="social-text">📷 Follow me on Instagram: 
+        <a href="https://www.instagram.com/shutterxsculptor/" target="_blank" class="insta-link">@shutterxsculptor</a>
+        </p>
+    </section>
+    <footer class="footer">
+        <p>©2025 shutterxsculptor | All rights reserved.</p>
+        <p>Made with 📸 and 💛</p>
+    </footer>
+    <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById("nav-links");
+    navLinks.classList.toggle("show");
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll("#nav-links li a");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        const menu = document.getElementById("nav-links");
+        menu.classList.remove("show");
+      });
+    });
+  });
+</script>
+
+
+</body>
+</html>
