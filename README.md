@@ -8,20 +8,15 @@
 
 ## 🌟 Features
 
-- 🍔 Responsive hamburger navigation for mobile devices  
-- 🎬 Smooth fade-in animations for sections  
-- 🖼️ Image gallery to display selected photographs  
-- 👤 About section with personalized introduction  
-- 💌 Fully working contact form (messages go directly to my email) 
-- 🎨 Clean and minimal design with hover effects  
+-  Responsive hamburger navigation for mobile devices  
+-  Smooth fade-in animations for sections  
+-  Image gallery to display selected photographs  
+-  About section with personalized introduction  
+-  Fully working contact form (messages go directly to my email) 
+-  Clean and minimal design with hover effects  
 
 ---
-
-## 🧰 Built With
-
-- 🧱 HTML5  
-- 🎨 CSS3  
-- ⚙️ JavaScript  
+ 
 - 💻 Designed using VS Code and tested with Chrome DevTools  
 - 📬 Integrated email form submission using [FormSubmit](https://formsubmit.co)
 
