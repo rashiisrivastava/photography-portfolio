@@ -15,7 +15,7 @@ body, html {
   justify-content: space-between;
   align-items: center;
   padding: 1.25em 1.25em;
-  background-color: #0D0D0D;
+  background-color: #111111;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -399,4 +399,5 @@ body, html {
   font-size: 0.85em;
   border-top: 1px solid #2e2e2e;
   width: 100%;
+
 }
